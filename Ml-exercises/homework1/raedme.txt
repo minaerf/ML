@@ -1,0 +1,23 @@
+exercise 1_a
+
+Classify2.m :
+	bayes classifier for linear, quadratic, diaglinear and diagquadratic covariance matrix
+	input : default_features_1059_asli_unsorted.csv
+	output : confusion matrix, matrix of tp, fp, precision, recall, f-measure for each class and their average for all class
+	Note : for quadratic gives error because number of features are more than instances for each class
+
+
+exercise1_b
+
+randomSelect5.m
+	create 5% missing value for important feature
+	input : default_features_1059_attr53End.csv 
+	output : default_features_1059_tracks_5miss.csv
+	Note : there are similar matlab file for 10%, 15%, 20%, 25%
+
+regress.m
+	predict 5% missing value for important feature
+	input : default_features_1059_tracks_5miss.csv , default_features_1059_tracks_10miss.csv , default_features_1059_tracks_15miss.csv , default_features_1059_tracks_20miss.csv , default_features_1059_tracks_25miss.csv 
+	output : default_features_1059_tracks_5.csv , default_features_1059_tracks_10.csv , default_features_1059_tracks_15.csv , default_features_1059_tracks_20.csv , default_features_1059_tracks_25.csv
+	
+		
